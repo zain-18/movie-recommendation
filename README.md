@@ -7,6 +7,7 @@
 
 ### *For Recommendation* ###
 * Cosine_similarity
-* 
+
+
 ### *For UI* ###
 * Streamlit
