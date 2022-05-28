@@ -2,11 +2,17 @@ import  pickle as pk
 import  pandas as pd
 import streamlit as st
 import requests
+import gzip
 
+with open('movies_list.pkl',mode='rb') as fin:
+    movies_list=pk.load(fin)
+
+with open('similarity.pkl',mode='rb') as fin:
+    similarity=pk.load(fin)
 
 st.title('Movie Recommender System')
-movies_list=pk.load(open('movies_list.pkl','rb'))
-similarity=pk.load(open('similarity.pkl','rb'))
+#movies_list=pk.load(open('movies_list.pkl','rb'))
+#similarity=pk.load(open('similarity.pkl','rb'))
 movies=pd.DataFrame(movies_list)
 
 # fetch  movie title,poster,genres
