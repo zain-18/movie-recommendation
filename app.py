@@ -1,14 +1,14 @@
-import  pickle as pk
+import  pickle
 import  pandas as pd
 import streamlit as st
 import requests
 import gzip
 
-with open('movies_list.pkl',mode='rb') as fin:
-    movies_list=pk.load(fin)
+pickle_movie = open("movies_list.pkl","rb")
+movies_list=pickle.load(pickle_movie)
 
-with open('similarity.pkl',mode='rb') as fin:
-    similarity=pk.load(fin)
+pickle_similarity = open("similarity.pkl","rb")
+similarity=pickle.load(pickle_similarity)
 
 st.title('Movie Recommender System')
 #movies_list=pk.load(open('movies_list.pkl','rb'))
