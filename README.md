@@ -1,8 +1,6 @@
 # <a href="https://share.streamlit.io/zain-18/movie-recommendation/main/app.py">Movie Recommendation System (click to open)</a>
  
-<img src="https://github.com/zain-18/movie-recommendation/blob/main/0.png"/>
-<img src="https://github.com/zain-18/movie-recommendation/blob/main/1.png"/>
-<img src="https://github.com/zain-18/movie-recommendation/blob/main/2.png"/>
+<img src="https://github.com/zain-18/movie-recommendation/blob/main/UI.png"/>
 
 ### *Dataset Used* ###
 * Tmbd Dataset
